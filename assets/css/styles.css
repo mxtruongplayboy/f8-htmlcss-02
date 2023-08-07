@@ -55,6 +55,10 @@ a {
     --line-wrap: 2;
 }
 
+.line-4 {
+    --line-wrap: 4;
+}
+
 .break-all {
     word-break: break-all;
 }
@@ -408,4 +412,72 @@ a {
 
 .course-list .foot .booknow-btn:hover {
     background: #ffb900;
+}
+
+/* ========== FEEDBACK ========== */
+.feedback {
+    margin-top: 200px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.feedback-item .info .avt {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .title {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;
+}
+
+.feedback-item .info .desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.feedback-item .info .dot {
+    display: flex;
+    gap: 6px;
+    margin-top: 28px;
+}
+.feedback-item .info .dot-item {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.feedback-item .content-block {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item .content-block blockquote {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54; /* 153.846% */
+    margin-left: 30px;
 }
